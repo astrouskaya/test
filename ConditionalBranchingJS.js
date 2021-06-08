@@ -1,4 +1,4 @@
-console.log if(browser == 'Edge') {
+ if(browser == 'Edge') {
     alert("You've got the Edge!");
 } else if (browser == 'Chrome'
     || browser == 'Firefox'
