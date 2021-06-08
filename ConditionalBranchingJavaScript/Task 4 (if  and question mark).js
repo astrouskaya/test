@@ -1,4 +1,4 @@
-const number = + console.log('Введите число между 0 и 3', '');
+const number = console.log('Введите число между 0 и 3', '');
 switch (number) {
     case 0:
         console.log('Вы ввели число 0');

@@ -1,3 +1,4 @@
+let message = 'Нихао'
 if ("0") {
-    console.log( 'Привет' );
+    console.log(message);
 }
