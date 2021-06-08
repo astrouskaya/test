@@ -1,10 +1,5 @@
- if(browser == 'Edge') {
-    alert("You've got the Edge!");
-} else if (browser == 'Chrome'
-    || browser == 'Firefox'
-    || browser == 'Safari'
-    || browser == 'Opera') {
-    alert( 'Okay we support these browsers too' );
+ if (process.env.OS === 'Windows_NT') {
+    console.log ("You've got the Windows_NT!");
 } else {
-    alert( 'We hope that this page looks ok!' );
+    console.log( 'We hope that this page looks ok!' );
 }
