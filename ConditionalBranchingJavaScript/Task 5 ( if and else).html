@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-    <html>
+    <html lang="en-us">
     <body>
     <script>
         const login = prompt('Введите ваш логин', 'Сотрудник');
-        let message = (login === 'Сотрудник') ? alert('Привет') : (login === 'Директор') ? 'Здравствуйте' : (login === '') ? 'Нет логина' : '';
+        const message = (login === 'Сотрудник') ? alert('Привет') :
+            (login === 'Директор') ? 'Здравствуйте' :
+                (login === '') ? 'Нет логина' : '';
     </script>
     </body>
     </html>
