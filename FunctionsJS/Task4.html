@@ -1,4 +1,23 @@
-function Math.pow (x, n) {
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en-us">
+<body>
+<script>
+    function pow(x, n) {
+        let result = x;
+        for (let i = 1; i < n; i++) {
+            result *= x;
+        }
+        return result;
+    }
+    let x = prompt("Введите число x");
+    let n = prompt("Введите число n");
 
-}
-console.log(Math.pow(3, 2))
+    if (n < 1) {
+        alert(`Степень ${n} не поддерживается, введите целое число`);
+    } else {
+        alert( pow(x, n) );
+    }
+</script>
+</body>
+</html>
