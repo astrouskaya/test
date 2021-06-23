@@ -1,0 +1,19 @@
+             //Screen1
+#orb-search-q
+//input[@id='orb-search-q']
+
+             //Screen2
+a[href^="https://www.bbc.com/weather"
+//a[@href='https://www.bbc.com/weather']
+
+             //Screen3(video)
+[role="img"]
+//*[@class='p_accessibleHitArea notInteractiveContent']
+
+             //Screen4
+a[href^="https://www.bbc.com/news"]
+//a[@href="https://www.bbc.com/news"]
+
+             //Screen5
+[data-wwhp-module='header']
+//*[@class='module__title']
