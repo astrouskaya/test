@@ -2,18 +2,20 @@
 #orb-search-q
 //input[@id='orb-search-q']
 
-             //Screen2
-div[class='orb-panel-content b-g-p b-r orb-nav-sec']>ul>li[class='orb-nav-weather']
-//div[@class='orb-panel-content b-g-p b-r orb-nav-sec']//li[11]
+             //Screen2 (Weather)
+.orb-panel-active .orb-nav-weather a
+//*[@id='orb-panel-more']//*[@class='orb-nav-weather']
+
 
              //Screen3(video)
 [role="img"]
 //*[@class='p_accessibleHitArea notInteractiveContent']
 
-             //Screen4
-div[class='orb-nav-section orb-nav-links orb-nav-focus']>ul>[class='orb-nav-newsdotcom']
-//div[@class='orb-nav-section orb-nav-links orb-nav-focus']//li[@class='orb-nav-newsdotcom']
+             //Screen4(News)
+nav .orb-nav-newsdotcom
+//nav//*[@class="orb-nav-newsdotcom"]
 
              //Screen5
 [data-wwhp-module='header']
 //*[@class='module__title']
+
