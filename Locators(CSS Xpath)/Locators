@@ -1,0 +1,21 @@
+             //Screen1
+#orb-search-q
+//input[@id='orb-search-q']
+
+             //Screen2 (Weather)
+.orb-panel-active .orb-nav-weather a
+//*[@id='orb-panel-more']//*[@class='orb-nav-weather']
+
+
+             //Screen3(video)
+[role="img"]
+//*[@class='p_accessibleHitArea notInteractiveContent']
+
+             //Screen4(News)
+nav .orb-nav-newsdotcom
+//nav//*[@class="orb-nav-newsdotcom"]
+
+             //Screen5
+[data-wwhp-module='header']
+//*[@class='module__title']
+
